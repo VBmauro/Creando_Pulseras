@@ -1,0 +1,15 @@
+:root {
+    --primary: #1a1a1a;
+    /* CAMBIA ESTO: Si no quieres dorado (#d4af37), pon el color hexadecimal de tu marca aquí */
+    --accent: #d4af37; 
+    --accent-hover: #f1cf6d;
+    --text-main: #ffffff;
+    --text-muted: #a0a0a0;
+    --bg-main: #0a0a0a;
+    --glass-bg: rgba(255, 255, 255, 0.05);
+    --glass-border: rgba(255, 255, 255, 0.1);
+    --card-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.8);
+    --transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+/* ... (pega el resto de tu código CSS original aquí, funciona perfectamente tal cual está) ... */

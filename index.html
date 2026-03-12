@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Nombre de tu Web] | Tu Slogan Aquí</title>
+    <meta name="description" content="Descripción breve de lo que vendes u ofreces en tu página web.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Mi<span>Marca</span></a>
+            <div class="nav-icons">
+                <button id="cart-btn" class="icon-btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span id="cart-count">0</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container hero-content">
+            <h1 class="fade-in">Bienvenido a [Nombre de tu Web].</h1>
+            <p class="fade-in">Descubre los mejores productos diseñados especialmente para ti.</p>
+            <a href="#products" class="btn btn-primary fade-in">Ver Catálogo</a>
+        </div>
+    </header>
+
+    <main id="products" class="container section">
+        <h2 class="section-title">Nuestros Productos</h2>
+        <div id="product-grid" class="product-grid">
+            </div>
+    </main>
+
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Tu Carrito</h3>
+                <button id="close-cart" class="close-btn">&times;</button>
+            </div>
+            <div id="cart-items" class="cart-items"></div>
+            <div class="cart-footer">
+                <div class="cart-total">
+                    <span>Total:</span>
+                    <span id="cart-total-price">$0.00</span>
+                </div>
+                <button id="checkout-btn" class="btn btn-accent full-width">Finalizar Pedido</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="toast" class="toast">Producto añadido al carrito</div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 [Nombre de tu Web]. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
